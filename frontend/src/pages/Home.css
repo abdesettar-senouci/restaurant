@@ -42,7 +42,7 @@
   color: #6b7280;
   line-height: 1.6;
   margin-bottom: 2.5rem;
-  max-width: 500px;
+  /* max-width: 500px; */
 }
 
 .hero-buttons {
@@ -238,6 +238,9 @@
   } */
 }
 @media (max-width: 965px) {
+  .hero-text {
+    align-items: center;
+  }
   .hero-content {
     grid-template-columns: 1fr;
     gap: 3rem;
@@ -253,6 +256,9 @@
   .hero-social {
     justify-content: center;
   }
+  .hero-description {
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -262,16 +268,6 @@
     max-width: 400px;
   }
 
-  .food-image {
-    width: 200px;
-    height: 200px;
-  }
-
-  .restaurant-image {
-    width: 160px;
-    height: 120px;
-  }
-
   .food-placeholder {
     font-size: 3rem;
   }
@@ -279,11 +275,32 @@
   .restaurant-placeholder {
     font-size: 2rem;
   }
+  .menu-container {
+    flex-direction: column;
+  }
+  .menu-image {
+    width: 60%;
+    margin: 10px;
+  }
 }
 
 @media (max-width: 480px) {
   .hero-section {
     padding: 1rem 0;
+  }
+
+  .food-image {
+    display: none;
+  }
+  .restaurant-image {
+    width: 90%;
+    height: auto;
+    position: relative;
+  }
+  .image-container {
+    height: auto;
+    margin: 0 auto;
+    max-width: 300px;
   }
 
   .hero-container {
