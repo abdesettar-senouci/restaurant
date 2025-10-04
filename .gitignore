@@ -1,9 +1,31 @@
+<<<<<<< HEAD
+=======
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production build
+/dist
+/build
+/out
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+>>>>>>> 3d329dc4e7539941996d2f3ae9aadd750bfaa2d4
 # Logs
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 
 # Runtime data
 pids
@@ -60,3 +82,24 @@ typings/
 
 # next.js build output
 .next
+=======
+pnpm-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+/coverage
+
+# Misc
+.cache
+.temp
+>>>>>>> 3d329dc4e7539941996d2f3ae9aadd750bfaa2d4
